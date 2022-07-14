@@ -64,7 +64,7 @@ fun main(){
         if(result){
             println("yeay you are successfully registered on Lazada")
         }else{
-            println("download error, something wrong")
+            println("download failed, something wrong")
         }
     }
 
