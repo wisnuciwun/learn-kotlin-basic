@@ -52,6 +52,8 @@ class LazadaClass(name: String, val dominantColor: String, val promotion: String
 }
 
 fun main(args: Array<String>) {
+    // ***** Classes *****
+
     val bukalapak = MarketplaceClassOther("Bukalapak", "Jombang", "Shampoo Lifebouy")
     println("${bukalapak.name} berada di ${bukalapak.placement}")
     bukalapak.installMarketplace()
@@ -71,4 +73,6 @@ fun main(args: Array<String>) {
     lazada.installApplication()
     lazada.createAccount()
     lazada.bonusPromo()
+
+    // ***** end *****
 }

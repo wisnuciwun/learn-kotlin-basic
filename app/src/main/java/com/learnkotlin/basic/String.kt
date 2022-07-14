@@ -3,7 +3,7 @@ package com.learnkotlin.basic
 import java.util.*
 
 fun main() {
-    // ***** learning string *****
+    // ***** String *****
 
     var doubles = 12.4549859988772538562659592355252352 // 64-bit
     var floats = 1231.4549859988772538562659592355252352f // 32-bit
