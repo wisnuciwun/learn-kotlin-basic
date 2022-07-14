@@ -1,7 +1,7 @@
 package com.learnkotlin.basic
 
 fun main() {
-    // ***** number and operator
+    // ***** Number and Operator
 
     val a = 12
     val b = 25
