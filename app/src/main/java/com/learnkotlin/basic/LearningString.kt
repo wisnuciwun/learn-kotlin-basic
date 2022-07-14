@@ -22,7 +22,7 @@ fun main() {
     val str5 = "well i can see your \b best moment"
 
     for (char in str) {
-        println(char)
+        print(char+".")
     }
 
     var contentEqual = str2.contentEquals("well i can see your \$") // how to put dollar sign
@@ -36,6 +36,7 @@ fun main() {
     val hairColor = "black"
     val vehicle = "Ford GT"
 
+    println("")
     println("$name has $hairColor hair and using $vehicle. Now he $age years old, and should be has ${if (age > 30) "grand child now" else "no grand child"}") // template literals
     println(uppers)
 
